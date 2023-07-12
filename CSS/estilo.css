@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100...900&family=Syne:wght@400...800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Syne', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+  
+}
+h3 {  
+    color: #ececec;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-top: 300px;
+    text-align: right;
+
+}
+
+h2 {
+    color: #ececec;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: right;
+   
+}
+nav {
+    width: 100vw;
+    height: 10vh;
+    padding: 0 8.33vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    /*Alineacion vertical*/
+}
+
+nav div {
+    display: flex;
+    width: 30.11%;  /* El ancho de los agrupados, regla de tres apartir del figma*/
+    justify-content: space-between; /*solo hay espacios entre*/
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* IMAGEN*/
+img {
+    width: 50%;
+    border-radius: 25px;
+    max-width: 100%;}
+
+a {
+    text-decoration: none;}
+
+img:hover {
+    filter: grayscale();
+}
+
+header {
+    width: 100vw;
+    padding: 0 9.33vw; /* el primer valor es para arriba y abjo, el segundo para los costados*/
+}
+
+header {
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ /*TITULO*/
+h1 {
+    margin: 0;
+    font-size: 70px;}
+
+div a:hover {
+transform: scale(1.1)
+}
+
+h1, header a {
+    line-height: 170%;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PRIMERO {
+    margin-top: 330px;    
+    }
+
+ 
+main img {
+    width: 75%;
+    border-radius: 25px;
+    max-width: 100%;
+    margin-bottom: 70px;
+}
+
+
+main a {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border-color: #fffefe;
+    border-radius: 1cm;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+
+.Nombre {
+ width: 100%;
+ margin-top: 30px;
+ margin-bottom: 50px;
+}
+
+ p {
+    color: #ffffff;
+    font-size: 15px;
+    width: 60%;
+}
+
+/*ENVIAME EMAIL TEXTO*/
+header a {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+header a
+/*ENVIAME EMAIL FONDO*/
+    {
+    color: rgb(255, 255, 255);
+    border-color: #ffffff;
+    border-radius: 1cm;
+    border: 1.5px solid rgb(255, 255, 255);
+    padding: 10px;
+}
+
+    a:hover {
+color: #ffc400;
+}
+
+  footer {
+    width: 100%;
+    height: 50%;
+    padding: 2.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer:before {
+    content: "";
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    width: 100%;
+    border-top: 0.5px solid white; 
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+footer p {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 5px;
+    justify-content: center;
+    border-color: #ffffff;
+    margin: 0;
+}
+
+h3:before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 0.5px solid white; 
+  margin-bottom: 50px;
+  margin-top: -30px; 
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    width: 100%;
+    border-bottom: 0.5px solid white; 
+    margin-bottom: 30px; 
+  }
